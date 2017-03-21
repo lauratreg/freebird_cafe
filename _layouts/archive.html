@@ -2,7 +2,8 @@
 layout: default
 ---
 <section class="container">
-  <h1 class="centered"> Archive of posts with {{ page.type }} '{{ page.title }}{{ page.date | date: "%Y" }}' </h1>
+  <h1 class="centered"> Archive of posts with </h1>
+    <!-- {{ page.type }} '{{ page.title }}{{ page.date | date: "%Y" }}' </h1> -->
 
   <div class="grid blog-loop">
     {% for post in page.posts limit:6 %}
