@@ -323,6 +323,11 @@ nav.topleft {
 
 }
 
+.owl-carousel img {
+  height: 50vh;
+  width: 60vw;
+}
+
 /*Counter*/
 
 .counter {
