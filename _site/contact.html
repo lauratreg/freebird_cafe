@@ -82,22 +82,37 @@
   <!-- This contains the hamburger menu when it's popped out-->
   <div class="pure-drawer" data-position="right">
 
-    <h2> LOGO </h2>
+    <h2><span>Free Bird Cafe</span></h2>
+<p class="tagline">
+  A Cafe with a Cause
+</p>
 
-<nav>
-  <a href="/index"> Home </a>
-  <a href="/about"> About </a>
-  <a href="/training">Training</a>
+<nav class="grid">
+  <div class="col-6">
+  <a href="/index"> Home </a> <br />
+  <a href="/about"> About </a> <br />
+  <a href="/training">Training</a> <br />
   <a href="/getinvolved">Get Involved</a>
-  <a href="/charityshop">Charity Shop</a>
-  <a href="/blog">Blog</a>
-  <a href="/contact">Contact </a>
+  </div>
+  <div class="col-6">
+  <a href="/charityshop">Charity Shop</a><br />
+  <a href="/blog">Blog</a><br />
+  <a href="/events">Events</a><br />
+  <a href="/contact">Contact </a><br />
+  </div>
 </nav>
 
 <hr>
 <nav class="social-nav">
-  <a href="#"> <i class="fa fa-facebook"></i> </a>
+  <a target="blank" href="https://www.facebook.com/FreeBirdCafe/"> <i class="fa fa-facebook"></i> </a>
+  <a target="blank" href="https://www.instagram.com/freebirdcafe/"> <i class="fa fa-instagram"></i> </a>
+  <a target="blank" href="https://twitter.com/freebirdcafe?lang=en"> <i class="fa fa-twitter"></i> </a>
+
 </nav>
+
+<div class="centered">
+  <a target="blank" class="button-inverted" href="/donate.html">Donate</a>
+</div>
 
 
   </div>
@@ -109,13 +124,13 @@
 <div class="colorblock">
 <section class="padding">
 <nav class="social-nav topleft">
-  <a href="#"> <i class="fa fa-facebook"></i> </a>
-  <a href="#"> <i class="fa fa-instagram"></i> </a>
-  <a href="#"> <i class="fa fa-twitter"></i> </a>
+  <a target="blank" href="https://www.facebook.com/FreeBirdCafe/"> <i class="fa fa-facebook"></i> </a>
+  <a target="blank" href="https://www.instagram.com/freebirdcafe/"> <i class="fa fa-instagram"></i> </a>
+  <a target="blank" href="https://twitter.com/freebirdcafe?lang=en"> <i class="fa fa-twitter"></i> </a>
 </nav>
 
 <div class="topright">
-  <a class="button-inverted" href="/donate">Donate</a>
+  <a target="blank" class="button" href="/donate.html">Donate</a>
 </div>
 </section>
 </div>
@@ -147,49 +162,58 @@
 
         <section class="centered">
   <h2> Contact Us</h2>
-
-<p class="centered">
-  Free Bird Cafe
-<br />116 Maneenoparat Road
+<div class="grid-centered-equalHeight">
+<div class="col-3">
+<p>Address <br />
+  116 Maneenoparat Road
 <br />Chiang Mai, Thailand 50300
-<br /><i class="fa fa-phone" aria-hidden="true"></i> +66 810285383
-<br /><i class="fa fa-envelope" aria-hidden="true"></i> thaifreedomhouse@gmail.com
 </p>
-  <p> Do you have a large student group or group of individuals interested in visiting Thai Freedom House and Free Bird Cafe and learning more about our language and arts learning center and/or Social Enterprise? We have hosted groups as large as 45 for an informative lunch and talk abour our work. There are donation fees associated with the talks which help to support our work. Many types of groups have come to visit us and give back to the local community such as yoga or massage trainings, study abroad groups, tour groups, International School groups, families traveling Thailand and more. Please fill out the following form if you wish to book your own informative talk. </p>
+</div>
+<div class="col-3">
+<p>
+<i class="fa fa-phone" aria-hidden="true"></i> +66 810285383
+<br /> thaifreedomhouse@gmail.com
+<br />Tuesday-Saturday 9am-5pm
+</p>
+</div>
+</div>
+<hr />
+
+<section>
+  <h2>Learn <span>More</span></h2>
+  <p class="tagline">We love to share our story</p>
+  <p> Do you have a group interested in learning more about Thai Freedom House and Free Bird Cafe? You will spend your lunch hour learning more about our language and arts learning center or Social Enterprise. We can host groups up to 45 people for an informative lunch and talk abour our work. Groups that have visited in the past include yoga, massage trainings, study abroad students, tour groups, International schools, familes visiting Thailand, and more! <br /> <br />Please fill out the following form if you wish to book your own informative talk. </p>
 
 
 
   <form class="grid-center" action="https://formspree.io/thaifreedomhouse@gmail.com"
       method="POST">
-      <div class="col-8">
-<div class="col-8">
+<div class="col-6">
   <input type="text" name="name" placeholder="Name"></input>
   <input type="_replyto" name="name" placeholder="Email"></input>
   <input type="text" name="name" placeholder="Organization Name"></input>
 </div>
 
 
-<div class="col-8">
-  <p>
-    We can do the talks Tuesday-Friday, please give us at least two dates and times that are possible for your group to visit:
-  </p>
-  <input type="text" name="name" placeholder="Option 1"></input>
-  <input type="text" name="name" placeholder="Option 2"></input>
+<div class="col-6">
+  <input type="text" name="name" placeholder="Time/Date Option 1"></input>
+  <input type="text" name="name" placeholder="Time/Date Option 2"></input>
 </div>
-    <div class="col-8">
+    <div class="col-12">
       <textarea placeholder="Additional information about your request"></textarea>
     </div>
-    <div class="col-8">
-        <p>
-          * By Submitting this form I understand that there will be a 250-350thb donat
-        </p>
+    <div class="col-12">
+
       <input class="button" type="submit" value="Submit" />
     </div>
-
+    <p class="tagline">
+      * By submitting this form I understand that there will be a 250-350thb donation per person.
+    </p>
+    <p>
+      Thank you, we will get back to you as soon as possible with a response, please allow up to a week.
+    </p>
   </form>
-  <p>
-    Thank you, we will get back to you as soon as possible with a response, please allow up to a week.
-  </p>
+</section>
 </section>
 
 <div class="maps">
@@ -211,9 +235,10 @@
     <p>
     <br />116 Maneenoparat Road
     <br />Chiang Mai, Thailand 50300
-    <br /><i class="fa fa-phone" aria-hidden="true"></i> +66 810285383
+    <br /><i class="fa fa-phone" aria-hidden="true"></i>+66 810285383
+    <br />Tuesday-Saturday 9am-5pm
 
-    <br /><a class="button" href="/donate">Donate</a>
+    <br /><a target="blank" class="button" href="https://www.paypal.me/ThaiFreedomHouse">Donate</a>
     </p>
   </nav>
 
@@ -242,9 +267,9 @@
 
   <div class="col-2">
   <nav>
-    <a href="#"> <i class="fa fa-facebook"></i>Facebook</a>
-    <a href="#"> <i class="fa fa-instagram"></i>Instagram</a>
-    <a href="#"> <i class="fa fa-twitter"></i>Twitter</a>
+    <a target="blank" href="https://www.facebook.com/FreeBirdCafe/"> <i class="fa fa-facebook"></i>Facebook</a>
+    <a target="blank" href="https://www.instagram.com/freebirdcafe/"> <i class="fa fa-instagram"></i>Instagram</a>
+    <a target="blank" href="https://twitter.com/freebirdcafe?lang=en"> <i class="fa fa-twitter"></i>Twitter</a>
   </nav>
   </div>
 
