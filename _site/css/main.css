@@ -341,8 +341,13 @@ nav.topleft {
   height:200px;
   vertical-align: middle;
   text-align: center;
-
 }
+.countertext {
+  font-size: 1rem;
+  color: black;
+}
+
+
 /* Buttons */
  button,
 .button {
