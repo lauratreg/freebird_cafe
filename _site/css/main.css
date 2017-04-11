@@ -262,10 +262,9 @@ nav.topleft {
   position: absolute;
   top: 8px;
   left: 16px;
-
 }
 .padding {
-  padding: 4vh;
+  padding: 5vh;
 }
 /* STAFF HOVER EFFECTS*/
 .container {
@@ -549,14 +548,12 @@ form [class*=col-] {
   }
 
   /* ------ General Mobile Styles ---------*/
-  /* This aligns everything to center on mobile, this is purely slylistic, remove or adjust to suit your design */
   body,
   .left,
   .right {
     text-align: center;
   }
-  /* This adjusts the padding on all columns, this is purely slylistic, adjust to suit your design. */
-  /* [class*=col-] is a fancy selector that selects everything class that contains col- including col-3, col-4 etc. */
+
   .col,
   [class*=col-] {
     padding: 1rem;
@@ -565,4 +562,16 @@ form [class*=col-] {
     margin: 0;
   }
 
-}/* End media query */
+}
+
+@media (max-width: 505px) {
+.counter {
+  width: 50%;
+  align-items: center;
+}
+
+.container img {
+  width: 100%;
+}
+
+  }/* End media query */
