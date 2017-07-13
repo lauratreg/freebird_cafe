@@ -330,7 +330,7 @@ nav.topleft {
 
 /*Counter*/
 
-.counter {
+.counter-style {
   display: table-cell;
   margin:1.5%;
   padding: 2vh;
